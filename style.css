@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#rectangleWrapper {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  justify-content: center;
+}
+
+.rect {
+  margin: 0 auto;
+}
+
+#rectangleWrapper .para {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.inner-para {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+header {
+  background: #E4EE99;
+}
+
+header h1,
+header h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+span {
+  font-weight: bolder;
+}
+
+span a {
+  text-decoration: none;
+  color: #E10B1C;
+}
+
+span a:hover {
+  color: whitesmoke;
+  background: black;
+}
